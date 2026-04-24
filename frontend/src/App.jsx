@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "https://smart-job-tracker-backend-ypuw.onrender.com";
+const API = "https://smart-job-tracker-backend-ypuw.onrender.com/api";
 const API_ERROR = "Cannot connect to API. Make sure backend is running on port 5000.";
 
 const STATUSES = ["Applied", "Interview", "Offer", "Rejected"];
